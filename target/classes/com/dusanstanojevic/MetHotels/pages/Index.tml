@@ -1,0 +1,11 @@
+<html t:type="layout" title="MetHotels Index"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd"
+      xmlns:p="tapestry:parameter"
+        >
+	<t:BeanEditForm t:object="soba"/>
+	<t:Grid t:source="sobe" row="s" add="Users">
+		<p:usersCell>
+			<t:PageLink t:page="User" context="s.id">View</t:PageLink>
+		</p:usersCell>
+	</t:Grid>
+</html>
